@@ -20,7 +20,9 @@ if (process.env.DPQDTK) {
 
 if (!token.length) {
   console.log('无本地店铺签到token, 尝试获取远端店铺签到token')
-  token = [ ]
+  token = [
+  'DEB8279D5FF2470FB796415751276E3E',
+  ]
 }
 console.log(token)
 const $ = new Env('店铺签到');
